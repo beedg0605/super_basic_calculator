@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+	<div class="container">
+        <div class="calc-wrapper">
+            <h1>Basic Calculator</h1>
+            <div class="calc-inputs">
+                <form method="POST">
+                    <input type="text" name="a" placeholder="Enter the first number" required/>
+                    <input type="text" name="b" placeholder="Enter the second number" required/>
+                    <input type="text" name="operation" placeholder="add/subtract/multiply/divide" required/>
+                    <button type="submit" class="btn">Compute</button>
+                </form>
+            </div>
+            <div class="screen-output">
+                <h1>{{output_display}}</h1>
+            </div>
+        </div>
+    </div>	
+</body>
+</html>

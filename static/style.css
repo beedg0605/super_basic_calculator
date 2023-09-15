@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'League Spartan', sans-serif;
+}
+body{
+    background-color: hsL(222, 26%, 31%);  
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc-wrapper{
+    margin:155px auto;
+}
+.calc-wrapper h1{
+    text-align: center;
+    color:#CCC;
+    font-size: 3.5rem;
+}
+.calc-inputs form{
+    display:Flex;
+    flex-direction: column;
+}
+.calc-inputs form input{
+    margin:10px 0;
+    height:45px;
+    border:none;
+    border-radius:5px;
+    padding:0 10px;
+}
+.calc-inputs .btn{
+    outline:none;
+    border:none;
+    background-color:#E55604;
+    cursor: pointer;
+    border-radius: 15px;
+    height:45px;
+    font-size: 25px;
+    color:#CCC;
+}
+.calc-inputs .btn:hover{
+    background-color: #26577C;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: .3s ease;
+}
+.screen-output{
+    text-align: center;
+    margin:50px 0;
+    color:white;
+}
