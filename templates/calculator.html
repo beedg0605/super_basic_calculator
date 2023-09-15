@@ -12,7 +12,16 @@
                 <form method="POST">
                     <input type="text" name="a" placeholder="Enter the first number" required/>
                     <input type="text" name="b" placeholder="Enter the second number" required/>
-                    <input type="text" name="operation" placeholder="add/subtract/multiply/divide" required/>
+                    <!--<input type="text" name="operation" placeholder="add/subtract/multiply/divide" required/>-->
+                    <div class="dropdown-list">
+                        <select class="dropdown" name="operation">
+                            <option>Addition</option>
+                            <option>Subtraction</option>
+                            <option>Multiplication</option>
+                            <option>Division</option>
+                        </select>
+                        <span class="custom-arrow"></span>
+                    </div>
                     <button type="submit" class="btn">Compute</button>
                 </form>
             </div>
